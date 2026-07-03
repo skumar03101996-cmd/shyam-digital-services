@@ -92,48 +92,48 @@
         <div class="container">
             <h2 class="section-title">हमारी सेवाएँ</h2>
             <div class="services-grid">
-                <div class="service-card">
+                <a href="script-writing.html" class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-feather-alt"></i>
                     </div>
                     <h3>YouTube Script Writing</h3>
                     <p>आकर्षक और engaging YouTube scripts जो आपके viewers को बाँधे रखेंगे।</p>
-                </div>
-                <div class="service-card">
+                </a>
+                <a href="thumbnail-design.html" class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-image"></i>
                     </div>
                     <h3>YouTube Thumbnail Design</h3>
                     <p>Eye-catching thumbnails जो clicks बढ़ाएँ और CTR improve करें।</p>
-                </div>
-                <div class="service-card">
+                </a>
+                <a href="ai-images.html" class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-wand-magic-sparkles"></i>
                     </div>
                     <h3>AI Image Prompts</h3>
                     <p>Creative AI prompts जो आपके content को अलग बनाएँ।</p>
-                </div>
-                <div class="service-card">
+                </a>
+                <a href="seo-optimization.html" class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-search"></i>
                     </div>
                     <h3>SEO Optimization</h3>
                     <p>SEO Title, Description & Tags जो आपके video को rank करने में मदद करें।</p>
-                </div>
-                <div class="service-card">
+                </a>
+                <a href="shorts-script.html" class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Shorts Script Writing</h3>
                     <p>Viral-worthy scripts के लिए YouTube Shorts और Instagram Reels।</p>
-                </div>
-                <div class="service-card">
+                </a>
+                <a href="video-editing.html" class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-film"></i>
                     </div>
                     <h3>Video Editing</h3>
                     <p>Professional video editing जो आपके content को अगले level पर ले जाए।</p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -300,6 +300,314 @@
             </div>
         </div>
     </footer>
+
+    <style>
+        .service-card {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .service-card:hover {
+            cursor: pointer;
+        }
+
+        .service-detail {
+            padding: 60px 0;
+            min-height: 100vh;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            gap: 15px;
+        }
+
+        .service-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .service-icon-large {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .service-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .service-header .tagline {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        .service-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .content-section {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 2rem;
+        }
+
+        .content-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .features-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .features-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 1rem;
+            background-color: var(--dark-bg);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .features-list i {
+            color: var(--success);
+            font-size: 1.3rem;
+        }
+
+        .benefits-grid,
+        .script-types,
+        .design-elements,
+        .uses-grid,
+        .editing-services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .benefit-card,
+        .type-card,
+        .element-box,
+        .use-card,
+        .service-item {
+            background-color: var(--dark-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .benefit-card:hover,
+        .type-card:hover,
+        .use-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.1);
+        }
+
+        .benefit-card i,
+        .use-card i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .script-structure,
+        .prompt-structure,
+        .seo-elements {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .step,
+        .prompt-part,
+        .step-content {
+            background-color: var(--dark-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .pricing-detail {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .price-box {
+            background-color: var(--dark-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .price-box.featured {
+            border-color: var(--primary-color);
+            transform: scale(1.05);
+        }
+
+        .price-box h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .price-box .price {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin: 1.5rem 0;
+            font-weight: bold;
+        }
+
+        .price-box ul {
+            list-style: none;
+            margin: 1.5rem 0;
+            text-align: left;
+        }
+
+        .price-box li {
+            padding: 0.8rem 0;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .price-box li:last-child {
+            border-bottom: none;
+        }
+
+        .faq {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .faq-item {
+            background-color: var(--dark-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .faq-item h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        .faq-item p {
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .video-types,
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .type-item,
+        .topic {
+            background-color: var(--dark-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .structure-step {
+            background: linear-gradient(135deg, var(--dark-bg), var(--card-bg));
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .structure-step .step-num {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .structure-step h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .service-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .price-box.featured {
+                transform: scale(1);
+            }
+
+            .step {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .step-number {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
 
     <script src="script.js"></script>
 </body>

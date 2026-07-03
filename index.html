@@ -192,47 +192,145 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <h2 class="section-title">हमारे काम</h2>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">सभी</button>
+                <button class="filter-btn" data-filter="thumbnail">Thumbnails</button>
+                <button class="filter-btn" data-filter="script">Scripts</button>
+                <button class="filter-btn" data-filter="editing">Editing</button>
+                <button class="filter-btn" data-filter="ai">AI Images</button>
+            </div>
+
             <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200?text=Thumbnail+1" alt="Portfolio Item 1">
-                    <div class="portfolio-overlay">
-                        <h4>YouTube Thumbnail</h4>
-                        <p>Professional Design</p>
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="thumbnail">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Thumbnail</span>
+                        <h3>Professional YouTube Thumbnail</h3>
+                        <p class="portfolio-description">Eye-catching design with vibrant colors और bold typography। Technology niche के लिए perfect design।</p>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">50%</span>
+                                <small>CTR Increase</small>
+                            </div>
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">5K+</span>
+                                <small>Views</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200?text=Thumbnail+2" alt="Portfolio Item 2">
-                    <div class="portfolio-overlay">
-                        <h4>Shorts Thumbnail</h4>
-                        <p>Viral Design</p>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="thumbnail">
+                    <div class="portfolio-image">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Thumbnail</span>
+                        <h3>Viral Shorts Thumbnail</h3>
+                        <p class="portfolio-description">Instagram Reels और YouTube Shorts के लिए optimized। High-contrast design जो mobile screens पर perfect दिखता है।</p>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">75%</span>
+                                <small>Engagement</small>
+                            </div>
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">10K+</span>
+                                <small>Shares</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200?text=Thumbnail+3" alt="Portfolio Item 3">
-                    <div class="portfolio-overlay">
-                        <h4>AI Generated</h4>
-                        <p>Creative Design</p>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-image">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">AI Images</span>
+                        <h3>AI Generated Creative Design</h3>
+                        <p class="portfolio-description">Advanced AI prompts से बनाई गई unique images। Content को अलग बनाने के लिए perfect।</p>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">100%</span>
+                                <small>Original</small>
+                            </div>
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">4K</span>
+                                <small>Resolution</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200?text=Thumbnail+4" alt="Portfolio Item 4">
-                    <div class="portfolio-overlay">
-                        <h4>Brand Design</h4>
-                        <p>Custom Design</p>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="script">
+                    <div class="portfolio-image">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Script</span>
+                        <h3>Engaging YouTube Script</h3>
+                        <p class="portfolio-description">Business niche के लिए professional script। Hook से लेकर CTA तक सब कुछ perfect।</p>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">1200</span>
+                                <small>Words</small>
+                            </div>
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">10 Min</span>
+                                <small>Duration</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200?text=Thumbnail+5" alt="Portfolio Item 5">
-                    <div class="portfolio-overlay">
-                        <h4>Premium Design</h4>
-                        <p>High Quality</p>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="editing">
+                    <div class="portfolio-image">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Video Editing</span>
+                        <h3>Premium Video Editing</h3>
+                        <p class="portfolio-description">Professional transitions, effects और color grading। पूरा video polish और professional लगता है।</p>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">4K</span>
+                                <small>Quality</small>
+                            </div>
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">24 Hrs</span>
+                                <small>Delivery</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200?text=Thumbnail+6" alt="Portfolio Item 6">
-                    <div class="portfolio-overlay">
-                        <h4>Special Design</h4>
-                        <p>Custom Request</p>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="thumbnail">
+                    <div class="portfolio-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Thumbnail</span>
+                        <h3>Brand Custom Thumbnail</h3>
+                        <p class="portfolio-description">Brand identity के साथ unique thumbnail design। Consistent branding के लिए perfect।</p>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">100%</span>
+                                <small>Custom</small>
+                            </div>
+                            <div class="portfolio-stat">
+                                <span class="portfolio-stat-value">3 Revisions</span>
+                                <small>Included</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -300,314 +398,6 @@
             </div>
         </div>
     </footer>
-
-    <style>
-        .service-card {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .service-card:hover {
-            cursor: pointer;
-        }
-
-        .service-detail {
-            padding: 60px 0;
-            min-height: 100vh;
-        }
-
-        .back-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 600;
-            margin-bottom: 2rem;
-            transition: all 0.3s ease;
-        }
-
-        .back-btn:hover {
-            gap: 15px;
-        }
-
-        .service-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .service-icon-large {
-            width: 120px;
-            height: 120px;
-            margin: 0 auto 1.5rem;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: white;
-        }
-
-        .service-header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .service-header .tagline {
-            font-size: 1.2rem;
-            color: var(--text-muted);
-        }
-
-        .service-content {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .content-section {
-            background-color: var(--card-bg);
-            padding: 2rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            margin-bottom: 2rem;
-        }
-
-        .content-section h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            color: var(--primary-color);
-        }
-
-        .features-list {
-            list-style: none;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-        }
-
-        .features-list li {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 1rem;
-            background-color: var(--dark-bg);
-            border-radius: 8px;
-            border-left: 4px solid var(--primary-color);
-        }
-
-        .features-list i {
-            color: var(--success);
-            font-size: 1.3rem;
-        }
-
-        .benefits-grid,
-        .script-types,
-        .design-elements,
-        .uses-grid,
-        .editing-services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .benefit-card,
-        .type-card,
-        .element-box,
-        .use-card,
-        .service-item {
-            background-color: var(--dark-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-
-        .benefit-card:hover,
-        .type-card:hover,
-        .use-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--primary-color);
-            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.1);
-        }
-
-        .benefit-card i,
-        .use-card i {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
-
-        .script-structure,
-        .prompt-structure,
-        .seo-elements {
-            display: grid;
-            gap: 1.5rem;
-        }
-
-        .step,
-        .prompt-part,
-        .step-content {
-            background-color: var(--dark-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            display: flex;
-            gap: 1.5rem;
-            align-items: flex-start;
-        }
-
-        .step-number {
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: bold;
-            font-size: 1.2rem;
-            flex-shrink: 0;
-        }
-
-        .pricing-detail {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-
-        .price-box {
-            background-color: var(--dark-bg);
-            padding: 2rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-
-        .price-box.featured {
-            border-color: var(--primary-color);
-            transform: scale(1.05);
-        }
-
-        .price-box h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-        }
-
-        .price-box .price {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin: 1.5rem 0;
-            font-weight: bold;
-        }
-
-        .price-box ul {
-            list-style: none;
-            margin: 1.5rem 0;
-            text-align: left;
-        }
-
-        .price-box li {
-            padding: 0.8rem 0;
-            color: var(--text-muted);
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .price-box li:last-child {
-            border-bottom: none;
-        }
-
-        .faq {
-            display: grid;
-            gap: 1.5rem;
-        }
-
-        .faq-item {
-            background-color: var(--dark-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-        }
-
-        .faq-item h3 {
-            color: var(--primary-color);
-            margin-bottom: 0.8rem;
-            font-size: 1.1rem;
-        }
-
-        .faq-item p {
-            color: var(--text-muted);
-            line-height: 1.6;
-        }
-
-        .video-types,
-        .topics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1rem;
-        }
-
-        .type-item,
-        .topic {
-            background-color: var(--dark-bg);
-            padding: 1rem;
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            text-align: center;
-            color: var(--primary-color);
-            font-weight: 500;
-        }
-
-        .structure-step {
-            background: linear-gradient(135deg, var(--dark-bg), var(--card-bg));
-            padding: 1.5rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-        }
-
-        .structure-step .step-num {
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-            font-weight: bold;
-        }
-
-        .structure-step h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-            color: var(--primary-color);
-        }
-
-        @media (max-width: 768px) {
-            .service-header h1 {
-                font-size: 1.8rem;
-            }
-
-            .price-box.featured {
-                transform: scale(1);
-            }
-
-            .step {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .step-number {
-                margin-bottom: 1rem;
-            }
-        }
-    </style>
 
     <script src="script.js"></script>
 </body>

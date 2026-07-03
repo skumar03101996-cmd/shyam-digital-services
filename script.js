@@ -58,7 +58,7 @@ if (contactForm) {
         // WhatsApp message
         const whatsappMessage = `नमस्ते! मैं Shyam Digital Services से संपर्क करना चाहता/चाहती हूँ।\n\nनाम: ${name}\nEmail: ${email}\nफोन: ${phone}\nसेवा: ${service}\nसंदेश: ${message}`;
         
-        const whatsappLink = `https://wa.me/917319772395?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappLink = `https://wa.me/919870834308?text=${encodeURIComponent(whatsappMessage)}`;
         window.open(whatsappLink, '_blank');
         
         // Reset form
@@ -113,7 +113,7 @@ document.querySelectorAll('.pricing-card button').forEach(button => {
     button.addEventListener('click', function() {
         const cardTitle = this.parentElement.querySelector('h3').textContent;
         const whatsappMessage = `नमस्ते! मुझे ${cardTitle} सेवा के बारे में जानकारी चाहिए।`;
-        const whatsappLink = `https://wa.me/917319772395?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappLink = `https://wa.me/919870834308?text=${encodeURIComponent(whatsappMessage)}`;
         window.open(whatsappLink, '_blank');
     });
 });
